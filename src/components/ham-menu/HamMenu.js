@@ -17,12 +17,30 @@ export default class HamMenu extends Component {
 
   render() {
     const { isToggled } = this.state;
+    console.log(isToggled)
     return (
-      <div onClick={()=>this.toggleMenu()} className={isToggled ? "active" : "nav-icon"}>
-        <a href="http://">
-            <div></div>
-        </a>
-      </div>
+      <nav className="menu-container">
+        <div
+          onClick={() => this.toggleMenu()}
+          className={isToggled ? "active" : "hidden"}
+        >
+          <div className='menu-icon'></div>
+        </div>
+        <ul className={isToggled ? "show" : "menu"}>
+          <a href="#">
+            <li id="link">Home</li>
+          </a>
+          <a href="#">
+            <li id="link">Resume</li>
+          </a>
+          <a href="#">
+            <li id="link">Projects</li>
+          </a>
+          {/* <a href="#">
+            <li id="link">Contact</li>
+          </a> */}
+        </ul>
+      </nav>
     );
   }
 }

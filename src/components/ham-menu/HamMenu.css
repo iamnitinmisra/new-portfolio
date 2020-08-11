@@ -1,31 +1,213 @@
-.nav-icon, .active {
-  margin: 1em;
-  width: 40px;
+.menu {
+  width: 500px;
+  /* background: teal; */
+  justify-content: space-around;
+  display: flex;
+  z-index: 10;
 }
 
-.active:before, .active:after, .active div, .nav-icon:after, 
-.nav-icon:before, 
-.nav-icon div {
-  background-color: #fff;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 5px;
-  margin: 7px 0;
-  transition: all .2s ease-in-out;
-  /* position: fixed;
-  z-index: 1; */
+#nav {
+  min-width: 125px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }
 
-.active:before {
-  transform: translateY(12px) rotate(135deg);
+@media (max-width: 72px) {
 }
 
-.active:after {
-  transform: translateY(-12px) rotate(-135deg);
+@media (min-width: 73px) and (max-width: 359px) {
+  .menu {
+    height: 2em;
+    width: 332px;
+    /* background: teal; */
+    justify-content: space-around;
+    display: none;
+    align-items: center;
+  }
+
+  #nav {
+    min-width: 125px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
 }
 
-.active div {
-  transform: scale(0);
-  
+@media (min-width: 360px) and (max-width: 599px) {
+  .hidden,
+  .active {
+    margin: 1em;
+    width: 40px;
+  }
+
+  .active:before,
+  .active:after,
+  .active div,
+  .hidden:after,
+  .hidden:before,
+  .hidden div {
+    background-color: #fff;
+    border-radius: 3px;
+    content: "";
+    display: flex;
+    height: 5px;
+    margin: 7px 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .active:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+
+  .active:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+
+  .active div {
+    transform: scale(0);
+  }
+
+  .menu-container {
+    height: 66px;
+    width: 460px;
+    position: fixed;
+    /* right: 10px; */
+    top: -5px;
+    flex-direction: row-reverse;
+    display: flex;
+  }
+
+  .menu {
+    height: 5em;
+    width: 332px;
+    background: teal;
+    display: block;
+    align-items: center;
+    transform: translate(500px, 0);
+    transition: 1s;
+  }
+
+  .show {
+    transform: translate(5px, 0px);
+    transition: 1s;
+    width: 332px;
+  }
+
+  #link {
+    background: violet;
+    position: relative;
+    top: 70px;
+    min-width: 400px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 954px) {
+  .hidden,
+  .active {
+    margin: 1em;
+    width: 40px;
+  }
+
+  .active:before,
+  .active:after,
+  .active div,
+  .hidden:after,
+  .hidden:before,
+  .hidden div {
+    background-color: #fff;
+    border-radius: 3px;
+    content: "";
+    display: flex;
+    height: 5px;
+    margin: 7px 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .active:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+
+  .active:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+
+  .active div {
+    transform: scale(0);
+  }
+
+  .menu-container {
+    height: 66px;
+    width: 518px;
+    position: fixed;
+    /* right: 10px; */
+    top: -5px;
+    flex-direction: row-reverse;
+    display: flex;
+  }
+
+  .menu {
+    height: 5em;
+    width: 332px;
+    display: block;
+    align-items: center;
+    transform: translate(700px, 0px);
+    transition: 1s;
+  }
+
+  .show {
+    transform: translate(5px, 0px);
+    transition: 1s;
+    width: 332px;
+  }
+
+  #link {
+    background: violet;
+    position: relative;
+    top: 70px;
+    min-width: 400px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 955px) and (max-width: 1279px) {
+  #link {
+    background: violet;
+    position: relative;
+    min-width: 80px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    align-items: center;
+    border: 1px solid black;
+  }
+}
+
+@media (min-width: 1280px) {
+  #link {
+    background: violet;
+    position: relative;
+    min-width: 80px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    align-items: center;
+    border: 1px solid black;
+  }
 }
