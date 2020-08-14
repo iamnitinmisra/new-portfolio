@@ -1,0 +1,27 @@
+@media (min-width: 360px) and (max-width: 599px) {
+    #biography-container{
+        background: orange;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #biography-container h2{
+        font-size: 1.7em;
+        align-self: center;
+        margin: 35px 0 20px 0;
+    }
+
+  }
+  
+  @media (min-width: 600px) and (max-width: 954px) {
+
+  }
+  
+  @media (min-width: 955px) and (max-width: 1279px) {
+
+  }
+  
+  @media (min-width: 1280px) {
+
+  }
+  

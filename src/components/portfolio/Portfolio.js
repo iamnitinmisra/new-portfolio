@@ -1,19 +1,25 @@
 import React from "react";
-import "./Portfolio.css";
 import HamMenu from "../ham-menu/HamMenu";
+import Identity from "./identity/Identity"
+import Biography from "./biography/Biography";
+import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="outer-container">
+    <div id="outer-container">
       <div className="portfolio-too-small">
         Your screen resolution is too small, please view my page on a larger
         screen for a better experience
       </div>
-      <div className="inner-container">
+      <div id="inner-container">
         <header className="navigation-bar">
           <div className="name-text">Nitin Misra</div>
           <HamMenu />
         </header>
+        <div id='components-container'>
+          <Identity />
+          <Biography />
+        </div>
       </div>
     </div>
   );
