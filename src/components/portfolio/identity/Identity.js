@@ -6,8 +6,8 @@ import SocialMedia from "../social-media/SocialMedia";
 export default function Identity() {
   return (
       <div id="identity-container">
-        <img src={profilePic} />
-        <div>
+        <img id="selfie" src={profilePic} />
+        <div className="identity-history">
           <h3>Full Stack Developer | Certified Scrum Master</h3>
           <h3>React.js | JavaScript | Node.js | PostgreSQL</h3>
           <h3>Arizona State University | DevMountain</h3>
