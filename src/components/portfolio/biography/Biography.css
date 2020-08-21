@@ -12,6 +12,10 @@
         /* padding: 0 3000px; */
     }
 
+    .biography-text{
+        padding: 20px;
+    }
+
   }
   
   @media (min-width: 600px) and (max-width: 954px) {
