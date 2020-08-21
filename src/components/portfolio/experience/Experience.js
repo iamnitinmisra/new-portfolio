@@ -54,7 +54,14 @@ export default function Experience() {
           </div>
         </div>
       </div>
-        <button id='resume-btn'>Printable Resume</button>    
+      <div id='resume-btn'>
+            <a href='https://drive.google.com/open?id=0B9sXP0gSC3wtN0dLMGdfLXkzLXRyMS1MRTU4MzdDRjBZcFNr'
+            target="_blank"
+            className="print-resume-btn"
+            rel="noopener noreferrer">
+            Printable Resume
+            </a> 
+        </div>
     </div>
   );
 }

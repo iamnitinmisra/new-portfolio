@@ -4,15 +4,15 @@ import './MenuContent.css'
 export default function MenuContent() {
   return (
     <ul className='content'>
-      <a href="#">
+      {/* <a href="#"> */}
         <li id="link">Home</li>
-      </a>
-      <a href="#">
+      {/* </a> */}
+      {/* <a href="#"> */}
         <li id="link">Resume</li>
-      </a>
-      <a href="#">
+      {/* </a> */}
+      {/* <a href="#"> */}
         <li id="link">Projects</li>
-      </a>
+      {/* </a> */}
     </ul>
   );
 }

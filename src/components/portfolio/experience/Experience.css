@@ -70,4 +70,7 @@
     /* position: absolute; */
     margin-top: 15px;
     background: none;
+    border: 2px solid;
+    padding: 10px;
+    /* text-decoration: ; */
 }

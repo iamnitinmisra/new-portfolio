@@ -22,11 +22,13 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    z-index: 0;
   }
 
   #react-text{
-      position: absolute;
-      bottom: 312px;
+      position: relative;
+      bottom: 10px;
+      z-index: -1;
       /* background: teal; */
   }
 
