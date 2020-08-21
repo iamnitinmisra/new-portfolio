@@ -3,6 +3,7 @@ import HamMenu from "../ham-menu/HamMenu";
 import Identity from "./identity/Identity"
 import Biography from "./biography/Biography";
 import Skills from "./skills/Skills"
+import Experience from "./experience/Experience"
 import "./Portfolio.css";
 
 export default function Portfolio() {
@@ -21,6 +22,7 @@ export default function Portfolio() {
           <Identity />
           <Biography />
           <Skills />
+          <Experience />
         </div>
       </div>
     </div>
