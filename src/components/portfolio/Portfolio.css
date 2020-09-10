@@ -34,7 +34,7 @@
   }
 
   #inner-container {
-    width: 460px;
+    width: 100vw;
     height: 100%;
     background: gold;
     margin: 0 auto;
@@ -42,14 +42,14 @@
 
   .navigation-bar {
     height: 66px;
-    width: 460px;
+    width: 100vw;
     position: fixed;
     background: green;
     display: flex;
     justify-content: space-between;
     border-bottom: solid 2px black;
     align-items: center;
-    z-index: 1;
+    z-index: 9999;
 
   }
 
@@ -72,15 +72,15 @@
   }
 
   #inner-container {
-    width: 518px;
+    width: 100vw;
     height: 200vh;
     background: gold;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .navigation-bar {
     height: 66px;
-    width: 518px;
+    width: 100vw;
     position: fixed;
     background: green;
     display: flex;
