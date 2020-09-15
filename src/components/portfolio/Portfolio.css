@@ -136,6 +136,7 @@
     width: 180px;
     background: grey;
     font-size: 2em;
+    margin-left: 114px;
   }
 }
 
@@ -167,6 +168,7 @@
     justify-content: space-between;
     border-bottom: solid 2px black;
     align-items: center;
+    z-index: 2;
   }
 
   .name-text {
@@ -175,5 +177,14 @@
     width: 180px;
     background: grey;
     font-size: 2em;
+    margin-left: 90px;
+  }
+
+  #components-container{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: center; */
   }
 }

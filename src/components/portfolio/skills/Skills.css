@@ -58,7 +58,125 @@
 }
 
 @media (min-width: 955px) and (max-width: 1279px) {
+  #skills-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: silver;
+    flex-direction: column;
+  }
+
+  #skills-container h2{
+      font-size: 1.7em;
+      margin: 35px 0 20px 0;
+  }
+
+  #react-logo-container{
+    width: 300px;
+    /* height: 135px; */
+    /* height: 320px; */
+    display: flex;
+    background: teal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 0;
+  }
+
+  #react-text{
+      position: relative;
+      bottom: 10px;
+      z-index: -1;
+      /* background: teal; */
+  }
+
+  #logos-container{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+  }
+
+  .skills-logo-container{
+      width: 300px;
+      /* height: 350px; */
+      display: flex;
+      background: maroon;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+  .skill-logo {
+    max-width: 75px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+
 }
 
 @media (min-width: 1280px) {
+  #skills-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: silver;
+    flex-direction: column;
+    
+  }
+
+  #skills-container h2{
+      font-size: 1.7em;
+      margin: 35px 0 20px 0;
+  }
+
+  #react-logo-container{
+    width: 300px;
+    /* height: 135px; */
+
+    display: flex;
+    background: teal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 0;
+  }
+
+  #react-text{
+      position: relative;
+      bottom: 10px;
+      /* z-index: -1; */
+      /* background: teal; */
+  }
+
+  #logos-container{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+  }
+
+  .skills-logo-container{
+      width: 300px;
+      /* height: 350px; */
+      display: flex;
+      background: maroon;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+  .skill-logo {
+    max-width: 75px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
 }
