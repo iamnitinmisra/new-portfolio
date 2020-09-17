@@ -1,11 +1,9 @@
 #social-media-container{
-    /* min-height: 100px; */
     width: 300px;
-    background: brown;
+    background: #a39274;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    /* flex-direction: column; */
 }
 
 #github-logo{
@@ -13,9 +11,6 @@
 }
 
 #social-media-logos{
-    /* width: 40px; */
-    /* height: 40px; */
-    /* max-width: 90px; */
     max-height: 40px;
     border-radius: 0px;
 }

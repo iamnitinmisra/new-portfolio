@@ -9,7 +9,7 @@ export default function Identity() {
     <div id="identity-container">
       <div id="selfie-container">
         <img id="selfie" src={profilePic} alt="Profile Pic" />
-        <div className="identity-history">
+        <div className="identity-title">
           <h3>Full Stack Developer | Certified Scrum Master</h3>
           <h3>React.js | JavaScript | Node.js | PostgreSQL</h3>
           <h3>Arizona State University | DevMountain</h3>

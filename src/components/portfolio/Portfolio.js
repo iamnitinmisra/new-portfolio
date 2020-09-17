@@ -19,7 +19,6 @@ export default function Portfolio() {
         </header>
         <div id='components-container'>
           <Identity />
-          {/* <Biography /> */}
           <Skills />
           <Experience />
         </div>

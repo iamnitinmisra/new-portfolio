@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: #a39274
 }
 ol, ul {
 	list-style: none;
@@ -53,4 +54,5 @@ html {
   
 * {
 	box-sizing: inherit;
+	/* background: #a39274; */
   }
