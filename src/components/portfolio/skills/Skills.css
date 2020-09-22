@@ -1,217 +1,61 @@
-@media (min-width: 360px) and (max-width: 599px) {
-  #skills-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background: #a39274;
-    flex-direction: column;
-  }
-
-  #skills-container h2 {
-    font-size: 1.7em;
-    margin: 35px 0 20px 0;
-  }
-
-  #react-logo-container {
-    width: 300px;
-    display: flex;
-    background: #a39274;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  #react-text {
-    position: relative;
-    bottom: 10px;
-  }
-
-  #logos-container {
-    display: flex;
-    width: 90vw;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .skills-logo-container {
-    width: 300px;
-    display: flex;
-    background: #a39274;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  .skill-logo {
-    max-width: 75px;
-    max-height: 75px;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-  }
+#skills-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-@media (min-width: 600px) and (max-width: 954px) {
-  #skills-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background: silver;
-    flex-direction: column;
-  }
+#skills-container h2 {
+  font-size: 1.7em;
+  margin: 35px 0 20px 0;
+}
 
-  #skills-container h2 {
-    font-size: 1.7em;
-    margin: 35px 0 20px 0;
-  }
+#react-logo-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
-  #react-logo-container {
-    width: 300px;
-    display: flex;
-    background: teal;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
+#react-text {
+  position: relative;
+  bottom: 10px;
+}
 
-  #react-text {
-    position: relative;
-    bottom: 10px;
-  }
+#logos-container {
+  display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  #logos-container {
-    display: flex;
-    width: 90vw;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.skills-logo-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
-  .skills-logo-container {
-    width: 300px;
-    display: flex;
-    background: maroon;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  .skill-logo {
-    max-width: 75px;
-    max-height: 75px;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-  }
+.skill-logo {
+  max-width: 75px;
+  max-height: 75px;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 955px) and (max-width: 1279px) {
-  #skills-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background: silver;
-    flex-direction: column;
-  }
-
-  #skills-container h2 {
-    font-size: 1.7em;
-    margin: 35px 0 20px 0;
-  }
-
-  #react-logo-container {
-    width: 300px;
-    display: flex;
-    background: teal;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  #react-text {
-    position: relative;
-    bottom: 10px;
-  }
-
   #logos-container {
-    display: flex;
     width: 900px;
-    flex-wrap: wrap;
-  }
-
-  .skills-logo-container {
-    width: 300px;
-    display: flex;
-    background: maroon;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  .skill-logo {
-    max-width: 75px;
-    max-height: 75px;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
   }
 }
 
 @media (min-width: 1280px) {
-  #skills-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background: silver;
-    flex-direction: column;
-  }
-
-  #skills-container h2 {
-    font-size: 1.7em;
-    margin: 35px 0 20px 0;
-  }
-
-  #react-logo-container {
-    width: 300px;
-    display: flex;
-    background: teal;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  #react-text {
-    position: relative;
-    bottom: 10px;
-  }
-
   #logos-container {
-    display: flex;
     width: 900px;
-    flex-wrap: wrap;
-  }
-
-  .skills-logo-container {
-    width: 300px;
-    display: flex;
-    background: maroon;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  .skill-logo {
-    max-width: 75px;
-    max-height: 75px;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
   }
 }

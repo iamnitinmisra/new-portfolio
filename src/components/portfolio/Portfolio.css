@@ -4,7 +4,7 @@
 
 .navigation-bar {
   height: 66px;
-  width: 1280px;
+  width: 100vw;
   position: fixed;
   background: #252523;
   display: flex;
@@ -24,7 +24,7 @@
 
 #outer-container {
   width: 100vw;
-  background: purple;
+  background: #a39274;
 }
 
 #inner-container {
@@ -62,7 +62,7 @@
 
   .navigation-bar {
     height: 55px;
-    width: 100vw;
+    /* width: 100vw; */
   }
 
   .name-text {
@@ -76,9 +76,9 @@
     width: 100vw;
   }
 
-  .navigation-bar {
+  /* .navigation-bar {
     width: 100vw;
-  }
+  } */
 }
 
 @media (min-width: 955px) and (max-width: 1279px) {
@@ -86,9 +86,9 @@
     display: none;
   }
 
-  .navigation-bar {
+  /* .navigation-bar {
     width: 956px;
-  }
+  } */
 
   #inner-container {
     width: 956px;
