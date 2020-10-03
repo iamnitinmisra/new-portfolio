@@ -1,21 +1,21 @@
-#biography-container{
-    display: flex;
-    flex-direction: column;
+#biography-container {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
 }
 
-#biography-container h2{
-    font-size: 1.7em;
-    align-self: center;
-    margin: 35px 0 20px 0;
+#biography-container h2 {
+  font-size: 1.7em;
+  align-self: center;
+  margin: 35px 0 20px 0;
 }
 
-.biography-text{
-    padding: 20px;
+.biography-text {
+  /* padding: 20px; */
 }
-  
-  @media (min-width: 955px) {
-    #biography-container{
-        width: 500px;
-    }
+
+@media (min-width: 955px) {
+  #biography-container {
+    width: 500px;
   }
-  
+}

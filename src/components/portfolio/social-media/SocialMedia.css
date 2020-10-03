@@ -1,33 +1,28 @@
-#social-media-container{
-    width: 300px;
-    background: #a39274;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
+#social-media-container {
+  width: 300px;
+  background: #a39274;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#github-logo{
-    width: 40px;
+#github-logo {
+  width: 40px;
 }
 
-#social-media-logos{
-    max-height: 40px;
-    border-radius: 0px;
+#social-media-logos {
+  max-height: 40px;
+  border-radius: 0px;
 }
 
 @media (min-width: 360px) and (max-width: 599px) {
-
 }
-  
-  @media (min-width: 600px) and (max-width: 954px) {
 
+@media (min-width: 600px) and (max-width: 954px) {
 }
-  
-  @media (min-width: 955px) and (max-width: 1279px) {
 
+@media (min-width: 955px) and (max-width: 1279px) {
 }
-  
-  @media (min-width: 1280px) {
 
+@media (min-width: 1280px) {
 }
-  

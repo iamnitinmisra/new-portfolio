@@ -22,12 +22,12 @@
 }
 
 .card ul {
-    padding-left: 50px;
-    list-style-type: disc;
+  padding-left: 50px;
+  list-style-type: disc;
 }
 
-.card ul li{
-    margin: 7px 0
+.card ul li {
+  margin: 7px 0;
 }
 
 .card div {
@@ -52,11 +52,11 @@
   color: rgb();
 }
 
-#resume-btn{
-    margin-top: 15px;
-    background: none;
-    border: 2px solid;
-    padding: 10px;
+#resume-btn {
+  margin-top: 15px;
+  background: none;
+  border: 2px solid;
+  padding: 10px;
 }
 
 .card {
@@ -67,7 +67,7 @@
   justify-content: center;
   border: 2px solid rgba(0, 0, 0, 0.125);
   box-shadow: 3px 3px rgb(83, 83, 83);
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
 
 @media (min-width: 360px) and (max-width: 599px) {
