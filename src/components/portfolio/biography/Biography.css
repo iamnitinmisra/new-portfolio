@@ -1,7 +1,6 @@
 #biography-container {
   display: flex;
   flex-direction: column;
-  align-items: top;
 }
 
 #biography-container h2 {
@@ -11,7 +10,7 @@
 }
 
 .biography-text {
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 @media (min-width: 955px) {
