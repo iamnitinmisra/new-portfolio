@@ -34,7 +34,7 @@
 #inner-container {
   height: 200vh;
   background: #a39274;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 @media (max-width: 72px) {

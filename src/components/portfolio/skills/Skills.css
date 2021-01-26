@@ -1,8 +1,10 @@
 #skills-container {
   display: flex;
+  width: 100vw;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  background: #b4a282;
 }
 
 #skills-container h2 {

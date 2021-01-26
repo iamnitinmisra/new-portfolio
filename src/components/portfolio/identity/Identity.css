@@ -1,5 +1,6 @@
 #identity-container {
   background: #a39274;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   padding-top: 100px;
@@ -54,9 +55,10 @@
 
 @media (min-width: 1280px) {
   #identity-container {
-    width: 1280px;
+    width: 100vw;
     height: 670px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
   }
 
   .identity-title {

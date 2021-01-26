@@ -1,5 +1,6 @@
 #experience-container {
   height: 850px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,18 +56,25 @@
 #resume-btn {
   margin-top: 15px;
   background: none;
-  border: 2px solid;
-  padding: 10px;
+  display: flex;
+  /* border: 2px solid; */
+  padding: 5px;
+  justify-content: flex-end;
+  width: 800px;
 }
+
+/* .print-resume-btn{
+} */
 
 .card {
   width: 90%;
   padding: 20px;
   display: flex;
+  background: #cebc9d;
   flex-direction: column;
   justify-content: center;
   border: 2px solid rgba(0, 0, 0, 0.125);
-  box-shadow: 3px 3px rgb(83, 83, 83);
+  box-shadow: 3px 3px  #575043;
   border-radius: 0.2rem;
 }
 
