@@ -102,7 +102,7 @@
   .hidden:after,
   .hidden:before,
   .hidden div {
-    background-color:#a39274;
+    background-color: #a39274;
     border-radius: 3px;
     content: "";
     display: flex;
@@ -156,25 +156,27 @@
   }
 }
 
-
 @media (min-width: 955px) and (max-width: 1279px) {
-  .menu{
-    width: 300px;
+  .menu-container { 
+    margin: 120px;
+  }
+  .menu {
+    margin-left: -320px;
+    position: relative;
   }
 
   #link {
     border: none;
   }
 }
-
 
 @media (min-width: 1280px) {
-  .menu{
+  .menu {
     width: 500px;
+    margin: 0 auto;
   }
 
   #link {
     border: none;
   }
 }
-

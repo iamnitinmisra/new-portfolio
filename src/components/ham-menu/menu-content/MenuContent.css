@@ -31,7 +31,7 @@
 @media (min-width: 955px) and (max-width: 1279px) {
   .content {
     display: flex;
-    width: 300px;
+    /* width: 500px; */
   }
 }
 
