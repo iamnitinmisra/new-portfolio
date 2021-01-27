@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import printer from '../../../assets/printer.png'
 
 export default function Experience() {
   return (
@@ -7,12 +8,12 @@ export default function Experience() {
       <h2>Experience</h2>
       <div id="resume-btn">
         <a
-          href="https://drive.google.com/open?id=0B9sXP0gSC3wtN0dLMGdfLXkzLXRyMS1MRTU4MzdDRjBZcFNr"
+          href="https://docs.google.com/document/d/1FkyPT2fgaC4Kes2Qj4lOGzWtddRUnUXQUduliRxIAjk/"
           target="_blank"
           className="print-resume-btn"
           rel="noopener noreferrer"
         >
-          Print
+          <img id='printer-icn' src={printer} />
         </a>
       </div>
       <div id="cards-container">

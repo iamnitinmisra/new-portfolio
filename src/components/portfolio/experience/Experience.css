@@ -63,8 +63,9 @@
   width: 800px;
 }
 
-/* .print-resume-btn{
-} */
+#printer-icn{
+  max-width: 35px
+}
 
 .card {
   width: 90%;
