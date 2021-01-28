@@ -1,0 +1,72 @@
+.navbar-container {
+    height: 50px;
+    width: 100vw;
+    background: blue;
+}
+
+.navbar-content {
+    height: 50px;
+    width: 1024px;
+    background: green;
+    margin: 0 auto;
+}
+
+.hidden,
+.active {
+  margin: 1em;
+  width: 40px;
+}
+
+.active:before,
+.active:after,
+.active div,
+.hidden:after,
+.hidden:before,
+.hidden div {
+  background-color: #a39274;
+  border-radius: 3px;
+  content: "";
+  display: flex;
+  height: 5px;
+  margin: 7px 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.active:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.active:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.active div {
+  transform: scale(0);
+}
+
+.menu-container {
+    height: 66px;
+    width: 460px;
+    position: fixed;
+    top: -10px;
+    display: flex;
+    z-index: -2;
+  }
+
+  .menu {
+    height: 5em;
+    width: 332px;
+    display: block;
+    align-items: center;
+    transform: translate(-720.5px, -6px);
+    transition: 1s;
+    z-index: -200;
+  }
+
+  .show {
+    transform: translate(-72.5px, -6px);
+    transition: 1s;
+    width: 332px;
+    z-index: -200;
+  }
