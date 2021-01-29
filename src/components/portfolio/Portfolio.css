@@ -23,7 +23,6 @@
   /* left: 382px;   */
   font-size: 2em;
   color: #dfd8c8;
-
 }
 
 #outer-container {
@@ -76,12 +75,16 @@
 }
 
 @media (min-width: 600px) and (max-width: 954px) {
+  .ham-icon {
+    display: none;
+  }
+
   #inner-container {
     width: 100vw;
   }
 }
 
-@media (min-width: 955px) and (max-width: 1279px) {
+@media (min-width: 955px) and (max-width: 1024px) {
   .ham-icon {
     display: none;
   }
@@ -92,11 +95,11 @@
   }
 
   #inner-container {
-    width: 956px;
+    width: 100vw;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .ham-icon {
     display: none;
   }
@@ -107,6 +110,6 @@
   }
 
   #inner-container {
-    width: 1280px;
+    width: 1024px;
   }
 }

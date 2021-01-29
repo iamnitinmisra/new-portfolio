@@ -1,25 +1,24 @@
 import React from "react";
+import "./NavBar.css";
 
-export default function Content() {
+export default function Content(props) {
   return (
-    <div>
-      <ul className="">
-        {/* <a href="#"> */}
-        <li id="">Home</li>
-        {/* </a> */}
-        {/* <a href="#"> */}
-        <li id="">Skills</li>
-        {/* </a> */}
-        {/* <a href="#"> */}
-        <li id="">Experience</li>
-        {/* </a> */}
-        {/* <a href="#"> */}
-        <li id="">Projects</li>
-        {/* </a> */}
-        {/* <a href="#"> */}
-        <li id="">Resume</li>
-        {/* </a> */}
-      </ul>{" "}
-    </div>
+    <ul className={props.isToggled ? "show-nav-links" : "nav-links"}>
+      {/* <a href="#"> */}
+      <li id="link">Home</li>
+      {/* </a> */}
+      {/* <a href="#"> */}
+      <li id="link">Skills</li>
+      {/* </a> */}
+      {/* <a href="#"> */}
+      <li id="link">Experience</li>
+      {/* </a> */}
+      {/* <a href="#"> */}
+      <li id="link">Projects</li>
+      {/* </a> */}
+      {/* <a href="#"> */}
+      <li id="link">Resume</li>
+      {/* </a> */}
+    </ul>
   );
 }

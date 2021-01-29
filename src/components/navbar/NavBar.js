@@ -7,7 +7,7 @@ export default class NavBar extends Component {
   constructor() {
     super();
     this.state = {
-      isToggled: false
+      isToggled: false,
     };
   }
 
@@ -23,9 +23,11 @@ export default class NavBar extends Component {
     return (
       <div className="navbar-container">
         <div className="navbar-content">
-          <HamIcon isToggled={isToggled} toggleMenu={this.toggleMenu}/>
-          <h1>Nitin Misra</h1>
-          <Content />
+          <HamIcon isToggled={isToggled} toggleMenu={this.toggleMenu} />
+          <div className="my-name">
+            <h2>Nitin Misra</h2>
+          </div>
+          <Content isToggled={isToggled} toggleMenu={this.toggleMenu} />
         </div>
       </div>
     );

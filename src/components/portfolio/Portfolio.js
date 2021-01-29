@@ -1,5 +1,5 @@
 import React from "react";
-import HamMenu from "../ham-menu/HamMenu";
+// import HamMenu from "../ham-menu/HamMenu";
 import Identity from "./identity/Identity";
 import Skills from "./skills/Skills";
 import Experience from "./experience/Experience";

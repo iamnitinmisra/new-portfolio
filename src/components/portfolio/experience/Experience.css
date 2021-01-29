@@ -60,11 +60,11 @@
   /* border: 2px solid; */
   padding: 5px;
   justify-content: flex-end;
-  width: 800px;
+  width: 90%;
 }
 
-#printer-icn{
-  max-width: 35px
+#printer-icn {
+  max-width: 35px;
 }
 
 .card {
@@ -75,7 +75,7 @@
   flex-direction: column;
   justify-content: center;
   border: 2px solid rgba(0, 0, 0, 0.125);
-  box-shadow: 3px 3px  #575043;
+  box-shadow: 3px 3px #575043;
   border-radius: 0.2rem;
 }
 
@@ -85,14 +85,19 @@
   }
 }
 
+@media (min-width: 600px) and (max-width: 954px) {
+}
+
 @media (min-width: 955px) and (max-width: 1279px) {
-  .card {
+  .card,
+  #resume-btn {
     width: 800px;
   }
 }
 
 @media (min-width: 1280px) {
-  .card {
+  .card,
+  #resume-btn {
     width: 800px;
   }
 }
