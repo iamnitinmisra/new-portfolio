@@ -1,5 +1,5 @@
 #experience-container {
-  height: 850px;
+  /* height: 850px; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -69,7 +69,9 @@
 
 .card {
   width: 90%;
+  height: 100%;
   padding: 20px;
+  margin-bottom: 20px;
   display: flex;
   background: #cebc9d;
   flex-direction: column;
@@ -81,7 +83,7 @@
 
 @media (min-width: 360px) and (max-width: 599px) {
   #experience-container {
-    height: 900px;
+    /* height: 900px; */
   }
 }
 

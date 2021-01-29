@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import printer from '../../../assets/printer.png'
+import printer from "../../../assets/printer.png";
 
 export default function Experience() {
   return (
@@ -13,7 +13,7 @@ export default function Experience() {
           className="print-resume-btn"
           rel="noopener noreferrer"
         >
-          <img id='printer-icn' src={printer} />
+          <img id="printer-icn" src={printer} alt="print" />
         </a>
       </div>
       <div id="cards-container">
