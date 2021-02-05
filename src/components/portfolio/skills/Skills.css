@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
 #skills-container {
   display: flex;
   width: 100vw;
@@ -5,6 +7,10 @@
   flex-wrap: wrap;
   flex-direction: column;
   background: #b4a282;
+}
+
+#skills-container h2 {
+  font-family: "Lora", serif;
 }
 
 #skills-container h2 {
