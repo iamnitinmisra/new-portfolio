@@ -14,6 +14,11 @@
   z-index: 9999;
 } */
 
+#components-container {
+  margin: 0 auto;
+  width: 100vw;
+}
+
 .name-text {
   width: 180px;
   margin: 0 auto;
