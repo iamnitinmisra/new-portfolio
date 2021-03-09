@@ -5,7 +5,7 @@ import printer from "../../../assets/printer.png";
 export default function Experience() {
   return (
     <div id="experience-container">
-      <h2>Experience</h2>
+      <h2 className="roboto">Experience</h2>
       <div id="resume-btn">
         <a
           href="https://docs.google.com/document/d/1FkyPT2fgaC4Kes2Qj4lOGzWtddRUnUXQUduliRxIAjk/"

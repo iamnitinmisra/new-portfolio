@@ -4,8 +4,8 @@ import "./Biography.css";
 export default function Biography() {
   return (
     <div id="biography-container">
-      <h2>Biography</h2>
-      <p className="biography-text">
+      <h2 className="roboto">Biography</h2>
+      <p className="biography-text ">
         I am a full-stack developer in Phoenix, AZ with a passion for computer
         science and electrical engineering. I earned a Bachelor's of Science in
         Business Administration from the W.P. Carey School of Business at

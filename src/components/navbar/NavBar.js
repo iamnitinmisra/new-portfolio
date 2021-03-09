@@ -24,7 +24,7 @@ export default class NavBar extends Component {
       <div className="navbar-container">
         <div className="navbar-content">
           <HamIcon isToggled={isToggled} toggleMenu={this.toggleMenu} />
-          <div className="my-name">
+          <div className="my-name roboto">
             <h2>Nitin Misra</h2>
           </div>
           <Content isToggled={isToggled} toggleMenu={this.toggleMenu} />

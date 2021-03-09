@@ -5,7 +5,9 @@ export default function Content(props) {
   return (
     <ul className={props.isToggled ? "show-nav-links" : "nav-links"}>
       {/* <a href="#"> */}
-      <li id="link">Home</li>
+      <li id="link" className="roboto">
+        Home
+      </li>
       {/* </a> */}
       {/* <a href="#"> */}
       <li id="link">Skills</li>

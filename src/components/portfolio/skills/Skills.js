@@ -13,7 +13,7 @@ import awsLogo from "../../../assets/aws_logo.png";
 export default function Skills() {
   return (
     <div id="skills-container">
-      <h2>Skills</h2>
+      <h2 className="roboto">Skills</h2>
       <div id="logos-container">
         <div className="skills-logo-container">
           <img src={gitLogo} className="skill-logo" alt="Git Logo" />
