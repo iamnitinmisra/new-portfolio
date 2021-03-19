@@ -49,6 +49,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: #dfd8c8;
+
 }
 
 .navbar-content {
