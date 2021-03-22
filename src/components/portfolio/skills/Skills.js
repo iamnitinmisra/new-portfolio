@@ -6,7 +6,7 @@ import {
 } from "react-scroll";
 import "./Skills.css";
 import gitLogo from "../../../assets/git_logoo.png";
-import reactLogo from "../../../assets/React-01.png";
+// import reactLogo from "../../../assets/React-01.png";
 import nodeLogo from "../../../assets/nodejs.png";
 import jsLogo from "../../../assets/JavaScript_Logo.png";
 import html5Logo from "../../../assets/html5_logo.png";

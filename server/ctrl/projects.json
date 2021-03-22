@@ -1,0 +1,31 @@
+[
+  {
+    "projectName": "Sat-Trac",
+    "description": "Find satellites passing overhead",
+    "technologies": [
+      "React.js",
+      "Redux",
+      "Axios",
+      "Express",
+      "Massive",
+      "Bcrypt",
+      "Session"
+    ],
+    "screenshots": []
+  },
+  {
+    "projectName": "Auto Maintenance Book",
+    "description": "Keep service records in one place for all of your vehicles.",
+    "technologies": [
+      "React.js",
+      "Redux",
+      "Axios",
+      "Express",
+      "Massive",
+      "Bcrypt",
+      "Session",
+      "Amazon AWS"
+    ],
+    "screenshots": []
+  }
+]

@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import {
   Link,
-  animateScroll as scroll,
+  // animateScroll as scroll,
   // scrollSpy,
   // scroller,
 } from "react-scroll";

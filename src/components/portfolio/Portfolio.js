@@ -5,6 +5,7 @@ import Skills from "./skills/Skills";
 import Experience from "./experience/Experience";
 import "./Portfolio.css";
 import NavBar from "../navbar/NavBar";
+import Projects from "./projects/Projects";
 
 export default function Portfolio() {
   return (
@@ -23,6 +24,7 @@ export default function Portfolio() {
           <Identity />
           <Skills />
           <Experience />
+          <Projects />
         </div>
       </div>
     </div>
