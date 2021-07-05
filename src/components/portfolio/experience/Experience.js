@@ -24,7 +24,7 @@ export default function Experience() {
         <div id="cards-container">
           <div className="card">
             <h3 className="xp-position text">Web Development Instructor</h3>
-            <h4 className="xp-company text">DevMountain</h4>
+            <h4 className="xp-company text">Devmountain</h4>
             <div>
               <p className="xp-dates text">April 2021 - Present</p>
               <p className="xp-dates text">Phoenix, AZ</p>
@@ -56,7 +56,7 @@ export default function Experience() {
           </div>
           <div className="card">
             <h3 className="xp-position text">Web Development Mentor</h3>
-            <h4 className="xp-company text">DevMountain</h4>
+            <h4 className="xp-company text">Devmountain</h4>
             <div>
               <p className="xp-dates text">January 2020 - April 2021</p>
               <p className="xp-dates text">Phoenix, AZ</p>
@@ -82,7 +82,7 @@ export default function Experience() {
           </div>
           <div className="card">
             <h3 className="xp-position text">Full Stack Developer</h3>
-            <h4 className="xp-company text">DevMountain Student Developers</h4>
+            <h4 className="xp-company text">Devmountain Student Developers</h4>
             <div>
               <p className="xp-dates text">September 2019 - December 2019</p>
               <p className="xp-dates text">Phoenix, AZ</p>
