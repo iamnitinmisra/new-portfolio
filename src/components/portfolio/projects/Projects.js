@@ -25,7 +25,7 @@ export default class Projects extends Component {
     });
     return (
       <Element name="projects1" className="element">
-        <div>{display}</div>
+        <div id="projects-container">{display}</div>
       </Element>
     );
   }

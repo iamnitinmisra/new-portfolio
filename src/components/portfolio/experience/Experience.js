@@ -23,36 +23,56 @@ export default function Experience() {
         </div>
         <div id="cards-container">
           <div className="card">
-            <h3 className="xp-position text">Web Development Mentor</h3>
+            <h3 className="xp-position text">Web Development Instructor</h3>
             <h4 className="xp-company text">DevMountain</h4>
             <div>
-              <p className="xp-dates text">Jan 2020 - Present</p>
+              <p className="xp-dates text">April 2021 - Present</p>
               <p className="xp-dates text">Phoenix, AZ</p>
             </div>
             <ul>
               <li>
-                Educate 100+ students around React stack technologies such as
-                React, Redux, SQL, Express, of which many have gone on to
-                successfully gain employment as a software engineer
+                Provide education on the technical subjects of JavaScript,
+                Python, Nodejs, and PostgreSQL through live online lectures
               </li>
               <li>
-                Implement cloud storage solutions using Amazon Web Services (S3)
-                which allows our users to upload their multimedia to be
-                displayed on the web app. This allowed the app to become dynamic
-                to each individual user
+                Educate multiple students around the Reactjs library and related
+                technologies such as Express and Redux to prepare them for a
+                career in full stack web development
               </li>
               <li>
-                Troubleshoot student’s code rapidly as student’s develop their
-                own personal projects using the stack we teach, React/Node/SQL
+                Instruct students on the principles of an Agile methodology
+                geared towards development
+              </li>
+              <li>
+                Implement cloud storage solutions using Amazon Web Services,
+                particularly S3
               </li>
               <li>
                 Manage daily scrum meetings with students in order to keep them
                 on track for graduation in a fast pace, bootcamp style
-                curriculum and practice Agile methodologies
+                curriculum
+              </li>
+            </ul>
+          </div>
+          <div className="card">
+            <h3 className="xp-position text">Web Development Mentor</h3>
+            <h4 className="xp-company text">DevMountain</h4>
+            <div>
+              <p className="xp-dates text">January 2020 - April 2021</p>
+              <p className="xp-dates text">Phoenix, AZ</p>
+            </div>
+            <ul>
+              <li>
+                Debugged code rapidly as student’s develop their own personal
+                projects using the stack we teach, React/Node/SQL
               </li>
               <li>
-                Ensure student’s full stack projects and assignments met all
-                requirements through JEST
+                Over sought the implementation of many NPM libraries in
+                student’s personal coding projects
+              </li>
+              <li>
+                Ensured student’s full stack projects and assignments met all
+                requirements through JEST testing
               </li>
               <li>
                 Create lesson plans that were tailored to the needs of the
@@ -64,7 +84,7 @@ export default function Experience() {
             <h3 className="xp-position text">Full Stack Developer</h3>
             <h4 className="xp-company text">DevMountain Student Developers</h4>
             <div>
-              <p className="xp-dates text">Sept 2019 - Dec 2019</p>
+              <p className="xp-dates text">September 2019 - December 2019</p>
               <p className="xp-dates text">Phoenix, AZ</p>
             </div>
             <ul>
@@ -93,7 +113,7 @@ export default function Experience() {
             <h3 className="xp-position text">Program Manager</h3>
             <h4 className="xp-company text">Blackhawk Network</h4>
             <div>
-              <p className="xp-dates text">Jan 2017 - Apr 2019</p>
+              <p className="xp-dates text">January 2017 - April 2019</p>
               <p className="xp-dates text">Phoenix, AZ</p>
             </div>
             <ul>
@@ -125,7 +145,7 @@ export default function Experience() {
             <h3 className="xp-position text">Assistant Program Manager</h3>
             <h4 className="xp-company text">Belkin International</h4>
             <div>
-              <p className="xp-dates text">Feb 2012 - July 2016</p>
+              <p className="xp-dates text">February 2012 - July 2016</p>
               <p className="xp-dates text">Los Angeles, CA</p>
             </div>{" "}
             <ul>
