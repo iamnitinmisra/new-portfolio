@@ -44,8 +44,7 @@ export default function Experience() {
                 geared towards development
               </li>
               <li>
-                Implement cloud storage solutions using Amazon Web Services,
-                particularly S3
+                Deployed applications with CI/CD (GitHub, Heroku, and CircleCI)
               </li>
               <li>
                 Manage daily scrum meetings with students in order to keep them
