@@ -13,7 +13,7 @@ export default function Experience() {
         <h2 className="roboto">Experience</h2>
         <div id="resume-btn">
           <a
-            href="https://docs.google.com/document/d/1FkyPT2fgaC4Kes2Qj4lOGzWtddRUnUXQUduliRxIAjk/"
+            href="https://docs.google.com/document/d/1tFbYTqj2EXXsVGtRirZZdKcK2AEvFYkyap0C2MlLkNY/"
             target="_blank"
             className="print-resume-btn"
             rel="noopener noreferrer"
